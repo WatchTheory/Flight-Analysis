@@ -1,1 +1,2 @@
-*.csv* filter=lfs diff=lfs merge=lfs -text
+*.csv*,*.ssim* filter=lfs diff=lfs merge=lfs -text
+*.ssim* filter=lfs diff=lfs merge=lfs -text
